@@ -7,20 +7,17 @@ var eventReset = document.getElementById("resetbtn");
 eventReset.addEventListener('click',reset,false);
 
 
-//Getting the user input for weight //
-    var weightofuser  = document.getElementById("weight").value;
-     //Getting the user input for height //
-    var heightofuser  = document.getElementById("height").value;
+
     
 
 // Creating Function to Calculate BMI //
 
 function BMIcalculate()
 {
-    /*//Getting the user input for weight //
+    //Getting the user input for weight //
     var weightofuser  = document.getElementById("weight").value;
      //Getting the user input for height //
-    var heightofuser  = document.getElementById("height").value;*/
+    var heightofuser  = document.getElementById("height").value;
     
 //  Calculating the BMI of user //
     
