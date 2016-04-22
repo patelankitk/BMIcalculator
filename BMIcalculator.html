@@ -1,0 +1,108 @@
+<!----Body Mass Index is an approximate measure of whether someone is over- or underweight, calculated by dividing their weight in kilograms by the square of their height in metres.
+The formula to calculate BMI is
+BMI                 Measure 
+0-18.5            -Underweight
+ 
+
+18.5 – 24.9         Normal
+ 
+
+25 – 29.9           Overweight
+ 
+
+30+                 Obese 
+
+Your task is to build a small Javascript application that measures a users BMI and then informs the user of their BMI measure.--->
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="BMIcalculatorCSS.css">
+
+</head>
+    
+<body>
+    
+    
+    <div class="container">
+
+    <!------ 1st Row - Description ---->
+    <div class="row">
+    <div class="col-sm-12">
+    <H1>Body Mass Index (BMI) Calculator.</H1>
+    </div>
+    </div>
+    <!------End of 1st Row ----------->
+        
+        
+        
+    <!------2nd Row - User Weight ---->
+    <div class="row">
+    <div class="col-sm-12">
+    <!-----Creating an input form for user to enter the weight----->
+    <form>
+        <p>Please Enter your Weight (kg).</p>
+        <input type="number" id="weight" placeholder="Weight(kg)" autofocus>   
+        
+    </form>
+    </div>
+    </div>
+    <!------End of 2nd Row ----------->
+        
+        
+        
+    <!------ 3rd Row - User Height ---->
+    <div class="row">
+    <div class="col-sm-12">
+    <!-----Creating an input form for user to enter the Height----->
+    <form>
+        <p>Please Enter your Height (Meters).</p>
+        <input type="number" id="height" placeholder="Height(meters)" autofocus>               
+    </form> 
+    </div>
+    </div>
+    <!------End of 3rd Row ----------->
+        
+        
+        
+    <!------ 4th Row - Calculate Button ---->
+    <div class="row">
+    <div class="col-sm-12">
+    <!------Creating a button to calculate BMI of the user ------->
+    
+    <div class="btndiv"><button id="calculate" class="btn1" onclick="validateEmpty()">Calculate BMI</button> <button id="resetbtn" class="btn2">Reset</button></div>
+    
+    
+    </div>
+    </div>
+    <!------4th Row ----------->
+        
+        
+        
+    <!------ 5th Row - Display ---->
+    <div class="row">
+    <div class="col-sm-12">
+    <!-------Creating a DIV element to diplay the result-------->
+    <div id="BMIresult" class="result"></div>
+    </div>
+    </div>
+    <!------5th Row ----------->  
+            
+    </div>    
+   
+     
+   
+    <!-------Creating a link for Java Script file --------->
+    <script src="BMIcalculatorJS.js"></script>
+    
+    
+</body>
+
+</html>

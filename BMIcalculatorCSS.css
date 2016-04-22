@@ -1,0 +1,50 @@
+/* Media Query for setting the min weight */
+
+@media (min-width: 650px){
+.container {
+    width: 30%;
+}
+}
+
+/* Changing the font size for H1 heading */
+
+H1 {
+    font-size: 32px;
+}
+
+/* Changing the padding for body */
+
+
+body{
+    padding-top: 5%;
+}
+
+/* Changing the background colour of buttons*/
+
+.btn1{
+    background-color: #4FCFF9;
+}
+.btn2{
+    background-color: #4FCFF9;
+    margin-left: 10px;
+}
+
+/* Changing the padding for button */
+
+.btndiv
+{
+    padding-top: 10px;
+}
+
+/* Changing the padding for result */
+
+.result{
+    padding-top: 15px;
+}
+
+/* Changing the background colour of the container*/
+.container
+{
+    background-color: lightblue;
+    
+}
