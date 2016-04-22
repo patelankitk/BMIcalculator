@@ -27,7 +27,7 @@ function BMIcalculate()
     var BMI = (weightofuser / (heightofuser*heightofuser));
     
 // If statement for BMI Under 18.5 ///
-    if ( BMI >0  && BMI < 18.5)
+    if ( BMI > 0  && BMI < 18.5)
         {
             // Displaying the result for Underweight //
             document.getElementById("BMIresult").innerHTML ="<li>"+ "Your BMI Measures :-" +BMI+"."+"</li>"+"<br>"+"<li>"+"You are Underweight."+"</li>";
@@ -35,7 +35,7 @@ function BMIcalculate()
         }
     
 // If statement for BMI between 18.5 & including 24.9 //
-    else if ( BMI >=18.5  && BMI <= 24.9)
+    else if ( BMI >= 18.5  && BMI <= 24.9)
         {
             // Displaying the result for Normal //
             document.getElementById("BMIresult").innerHTML ="<li>"+ "Your BMI Measures :-" +BMI+"."+"</li>"+"<br>"+"<li>"+"You are Normal."+"</li>";
@@ -43,7 +43,7 @@ function BMIcalculate()
         }
 
 // If statement for BMI between 25 & including 29.9 //
-    else if ( BMI >=25  && BMI <= 29.9)
+    else if ( BMI >= 25  && BMI <= 29.9)
         {
             // Displaying the result for Overweight //
             document.getElementById("BMIresult").innerHTML ="<li>"+ "Your BMI Measures :-" +BMI+"."+"</li>"+"<br>"+"<li>"+"You are Overweight."+"</li>";
